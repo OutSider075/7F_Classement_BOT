@@ -124,7 +124,7 @@ async def update_embed():
     except discord.NotFound:
         return
 
-    embed = discord.Embed(title="🛫 Tableau des pilotes DCS", color=0x3498db)
+    embed = discord.Embed(title="✈️ Tableau récapitulatif des modules MAIN et Maps des Pilotes", color=0x3498db)
     # Colonne Pilote
     embed.add_field(
         name="Pilote",
@@ -160,7 +160,7 @@ async def update_embed():
 async def initavions(ctx):
     """Crée le message tableau et stocke son ID."""
     embed = discord.Embed(
-        title="🛫 Tableau des pilotes DCS",
+        title="✈️ Tableau récapitulatif des modules MAIN et Maps des Pilotes",
         description="Initialisation…",
         color=0x3498db
     )
@@ -220,4 +220,4 @@ async def add_map(ctx, *, map_nom: str):
 
 # --- Démarrage du bot ---
 
-bot.run("TON_TOKEN_ICI")
+bot.run("MTM2NTA5NzM2OTUzOTk3MzMwNQ.G7kA5m.S8rgD-XV-WS3deOHb4n0DtVJVE7dYkjvgfpNaw")
