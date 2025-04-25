@@ -220,4 +220,4 @@ async def add_map(ctx, *, map_nom: str):
 
 # --- Démarrage du bot ---
 
-bot.run("MTM2NTA5NzM2OTUzOTk3MzMwNQ.GB6qoS.luYxsE24u9R3s_zK1ximQnDELtHCsEAOZWGvug")
+bot.run("MTM2NTA5NzM2OTUzOTk3MzMwNQ.Gy0ARu.l4kPcAq_3RIo_3x7j4i_Eto3VT1bJPbzATRe-c")
